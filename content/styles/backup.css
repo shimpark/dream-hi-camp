@@ -105,17 +105,17 @@ main{width:100%}
 .event-container>.quiz-comment-wrapper>.quiz-wrapper>.quiz-ul{width:100%;display:flex;justify-content:center;align-items:center}
 .event-container>.quiz-comment-wrapper>.quiz-wrapper>.quiz-ul>li{width:436px;height:509px;background-repeat:no-repeat;background-position:center center;background-size:100% 100%}
 .event-container>.quiz-comment-wrapper>.quiz-wrapper>.quiz-ul>li:first-child{margin-right:18px}
-.event-container>.quiz-comment-wrapper>.quiz-wrapper>.quiz-ul>li.example-a{background-image:url('../images/bg_quiz_a.png')}
-.event-container>.quiz-comment-wrapper>.quiz-wrapper>.quiz-ul>li.example-a.active{background-image:url('../images/bg_quiz_a_active.png')}
-.event-container>.quiz-comment-wrapper>.quiz-wrapper>.quiz-ul>li.example-b{background-image:url('../images/bg_quiz_b.png')}
-.event-container>.quiz-comment-wrapper>.quiz-wrapper>.quiz-ul>li.example-b.active{background-image:url('../images/bg_quiz_b_active.png')}
+.event-container>.quiz-comment-wrapper>.quiz-wrapper>.quiz-ul>li.example-a{background-image:url('../images/bg_quiz1_a.png')}
+.event-container>.quiz-comment-wrapper>.quiz-wrapper>.quiz-ul>li.example-a.active{background-image:url('../images/bg_quiz1_a_active.png')}
+.event-container>.quiz-comment-wrapper>.quiz-wrapper>.quiz-ul>li.example-b{background-image:url('../images/bg_quiz1_b.png')}
+.event-container>.quiz-comment-wrapper>.quiz-wrapper>.quiz-ul>li.example-b.active{background-image:url('../images/bg_quiz1_b_active.png')}
 .event-container>.quiz-comment-wrapper>.quiz-wrapper>.quiz-ul>li.active{border-radius:60px;
     -webkit-box-shadow: 0 0 25px 0 rgba(20,20,20,0.5);
     -moz-box-shadow: 0 0 25px 0 rgba(20,20,20,0.5);
     box-shadow: 0 0 25px 0 rgba(20,20,20,0.5);
 }
 .event-container>.quiz-comment-wrapper>.quiz-wrapper>.quiz-ul>li>a{width:100%;height:100%;display:flex;flex-direction:column;justify-content:space-between;align-items:center;}
-.event-container>.quiz-comment-wrapper>.quiz-wrapper>.quiz-ul>li>a>.situation{padding-top:65px;text-align:center;font-size:30px;color:#1A1A1A;font-weight:700;line-height:1.3}
+.event-container>.quiz-comment-wrapper>.quiz-wrapper>.quiz-ul>li>a>기프티콘ation{padding-top:65px;text-align:center;font-size:30px;color:#1A1A1A;font-weight:700;line-height:1.3}
 .event-container>.quiz-comment-wrapper>.quiz-wrapper>.quiz-ul>li>a>.percentage{height:70px;text-align:center;font-size:80px;font-weight:700;color:#A7A7A7;line-height:100%}
 .event-container>.quiz-comment-wrapper>.quiz-wrapper>.quiz-ul>li.active>a>.percentage{color:#ED1B23}
 .event-container>.quiz-comment-wrapper>.quiz-wrapper>.btn-get-sms{width:605px;height:113px;font-size:40px;margin:108px auto 118px;display:flex;justify-content:center;align-items:center;text-align:center;font-weight:700;color:#FFF;background-color:#ED1B23;border-radius:605px}
