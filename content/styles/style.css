@@ -384,7 +384,9 @@ main {
     display: flex;
     justify-content: space-between;
     left: 0;
-    top: 10.427vw
+    /* 21 08 26 네이블 수정 */
+    top: 7.427vw;
+    /* top: 10.427vw; */
 }
 
 .guide-container>.gallery-wrapper>.swiper-container>.swiper-navigator-wrapper>a {
@@ -3307,7 +3309,6 @@ body.modal {
 
 /*jtmoon 20210826*/
 
-/* 21 08 26 네이블 수정 추가 */
 /* iframe */
 .video {
     position: relative;
