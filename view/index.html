@@ -93,6 +93,8 @@
 
 <body>
     <header>
+        <!-- 21 08 27 네이블 수정 추가 -->
+        <div id="topAnchor" class="anchor"></div>
         <img src="../content/images/logo_top_web.png" class="logo-top web" />
         <img src="../content/images/logo_top_mobile.png" class="logo-top mobile" />
         <ul class="header-menu-ul">
@@ -198,7 +200,6 @@
                     </div>
                     <div id="swiper1">
                         <div class="swiper-wrapper">
-                            <!-- 21 08 26 네이블 수정 -->
                             <div class="swiper-slide">
                                 <div class="dim"></div>
                                 <a href="javascript:void(0);" data-index="1"></a>
@@ -211,7 +212,6 @@
                                 <img src="../content/images/youtube/video-image-01.jpg" />
                                 <span class="title">대학생 멘토 환영 메시지</span>
                             </div>
-                            <!-- //21 08 26 네이블 수정 -->
                         </div>
                     </div>
                 </div>
@@ -234,7 +234,6 @@
                     </div>
                     <div id="swiper2">
                         <div class="swiper-wrapper">
-                            <!-- 21 08 26 네이블 수정 -->
                             <div class="swiper-slide">
                                 <div class="dim"></div>
                                 <a href="javascript:void(0);" data-index="1"></a>
@@ -271,7 +270,6 @@
                                 <img src="../content/images/youtube/video-image-07.jpg" />
                                 <span class="title">EBS (출연교사진 인터뷰)</span>
                             </div>
-                            <!-- //21 08 26 네이블 수정 -->
                         </div>
                     </div>
                 </div>
@@ -501,6 +499,8 @@
         <li><a href="javascript:void(0);" class="btn-navigator" data-type="program">프로그램 소개</a></li>
         <li><a href="javascript:void(0);" class="btn-navigator" data-type="guide">활동가이드</a></li>
         <li><a href="javascript:void(0);" class="btn-navigator" data-type="event">EVENT</a></li>
+        <!-- 21 08 27 네이블 수정 추가 -->
+        <li><a href="javascript:void(0);" class="btn-navigator" data-type="top">TOP</a></li>
     </ul>
     <style>
         #galleryDummy1 {
@@ -737,7 +737,6 @@
             return {
                 effect: 'coverflow',
                 centeredSlides: true,
-                // 21 08 26 네이블 수정
                 slidesPerView: 2,
                 coverflowEffect: {
                     rotate: 0,
@@ -752,13 +751,13 @@
                     prevEl: '.btn-' + swiper + '-prev',
                 },
                 autoplay: {
-                    delay: 3000,
+                    delay: 5000,
                 },
                 breakpoints: {
                     740: {
                         slidesPerView: 1
                     }
-                }
+                },
             }
         };
 
@@ -843,6 +842,7 @@
             var programAnchor = $('#programAnchor').offset().top - 2;
             var guideAnchor = $('#guideAnchor').offset().top - 2;
             var eventAnchor = $('#eventAnchor').offset().top - 2;
+
             if (scroll > programAnchor) {
                 $('.float-menu-ul').addClass('active');
             } else {
@@ -857,7 +857,6 @@
             } else {
                 $('.btn-navigator[data-type="event"]').addClass('active');
             }
-
 
             var programAnimationAnchor = $('#programAnimationAnchor').offset().top - 2;
             var guideAnimationAnchor = $('#guideAnimationAnchor').offset().top - 2;
@@ -895,7 +894,6 @@
             text += 'index : ' + $(this).data('index');
             $('#galleryDummy1').html(text)
 
-            // 21 08 26 네이블 수정
             // 2번째 
             if ($(this).data('index') == 1) {
                 var videoEmbed = "Aw4yl01zXgc";
@@ -917,7 +915,6 @@
             text += 'index : ' + $(this).data('index');
             $('#galleryDummy2').html(text)
 
-            // 21 08 26 네이블 수정
             // 2번째 
             if ($(this).data('index') == 1) {
                 var videoEmbed = "4M0STHXKMLg";

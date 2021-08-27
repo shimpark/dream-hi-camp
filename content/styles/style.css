@@ -384,7 +384,6 @@ main {
     display: flex;
     justify-content: space-between;
     left: 0;
-    /* 21 08 26 네이블 수정 */
     top: 7.427vw;
     /* top: 10.427vw; */
 }
@@ -920,8 +919,23 @@ footer>a {
 }
 
 .float-menu-ul>li:nth-child(2) {
-    margin: 0.469vw 0
+    margin: 0.469vw 0;
 }
+
+/* 21 08 27 네이블 수정 추가 */
+@media (min-width:768px) {
+    .float-menu-ul>li:nth-child(4) {
+        margin: 0.469vw 0 0 0;
+    }
+}
+
+@media (max-width:576px) {
+    .float-menu-ul>li:nth-child(4) {
+        display: none;
+    }
+}
+
+/* //21 08 27 네이블 수정 추가 */
 
 .float-menu-ul>li>a {
     width: 100%;
